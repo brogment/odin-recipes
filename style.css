@@ -1,6 +1,7 @@
 * {
     line-height: 1.5;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,6 +11,8 @@ body {
 img {
     width: 500px;
     height: auto;
+    display: block;
+    margin: auto;
 }
 
 ul {
@@ -43,15 +46,22 @@ h2 {
 .recipe-card{
     background-color: rgb(112, 81, 44);
     color: blanchedalmond;
+    width: 1000px;
 }
 
 .summary {
     background-color: blanchedalmond;
     color: rgb(112, 81, 44);
+    width: 1000px;
 }
 
-nav {
+.navbar {
+    margin: auto;
+    border: 1px solid #FFF;
+    background-color: #FFF;
     text-align: center;
+    padding: 20px;
+    width: 600px;
 }
 
 nav a {
@@ -59,6 +69,10 @@ nav a {
     text-decoration: none;
     color: white;
     border: thick double tan ;
+    display: inline-block;
+    background-color: rgb(102, 64, 29);
+    margin: 0 10px;
+    
 }
 
 .current-page {
